@@ -1,0 +1,53 @@
+* {
+  font-family: 'Times New Roman', Times, serif;
+  box-sizing: border-box;
+}
+
+h1, p, label {
+  color: white;
+}
+
+input{
+  display: block;
+  width: 100%;
+}
+
+input[type="radio"]{
+  width: auto;
+  display: inline;
+}
+
+select{
+  width: 100%;
+}
+
+body{
+  background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://miro.medium.com/max/1400/1*g3ARV1u4v9b9AKEIyPB7zw.jpeg);
+ 
+}
+
+form{
+  background-color: rgba(27, 27, 50, 0.8);
+  padding: 20px;
+}
+
+.heading{
+  text-align: center;
+  padding: 40px;
+}
+
+.wrapper{
+  margin: 0 27%;
+}
+
+.form-item{
+  margin: 20px 30px;
+}
+
+textarea{
+  width: 100%;
+}
+
+.btn{
+  width: 100%;
+}
